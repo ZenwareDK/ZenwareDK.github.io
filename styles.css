@@ -127,10 +127,12 @@ span {
 	display: flex;
 	justify-content: center;
 	margin-top: 1em;
+    flex-wrap: wrap;
 }
 
 #youtube-links div {
-	margin: 0 1em;
+	margin: 1em 1em 0 1em;
+	padding: 0;
 }
 
 #youtube-links div p {
@@ -149,8 +151,9 @@ span {
 
 #founder-logo {
 	border-radius: 50%;
-	height: 40vh;
 	margin-bottom: 1em;
+	max-width: 100%;
+	width: 40vh;
 }
 
 #get-in-touch {
