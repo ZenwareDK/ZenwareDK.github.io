@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	color: #EBF2F2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	background: #0A0A18;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Varela Round', sans-serif;
+	color: #E3B455;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+header {
+	width: 100%;
+  	position: fixed;
+	z-index: 100;
+	left: 50%;
+	top: 0%;
+  	transform: translate(-50%, 0%);
+  	background: linear-gradient(180deg, rgba(5,5,12,1) 0%, rgba(5,5,12,0.8) 80%, rgba(0,0,0,0) 100%);
+  	text-align: center;
+  	padding-bottom: 10px;
+}
+
+#navbar {
+	padding: 1em 0;
+}
+
+#navbar li {
+	display: inline-block;
+	color: #EBF2F2;
+	padding: 0.5em 1em;
+}
+
+#navbar li a {
+	text-decoration: none;
+}
+
+.fullpage {
+	position: relative;
+	max-width: 100vw;
+	min-height: 80vh;
+	padding: 10vh 10vw;
+	background: linear-gradient(0deg, rgba(5,5,12,1) 0%, rgba(10,10,24,1) 20%, rgba(10,10,24,1) 80%, rgba(5,5,12,1) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.fullpage h2 {
+	margin-bottom: 0.5em;
+}
+
+.centered-content {
+	width: 80%;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#home {
+	text-align: center;
+}
+
+#front-page-logo img {
+	max-width: 60vw;
+	max-height: 30vh;
+	margin: 2vh;
+}
+
+#front-page-logo h3 {
+	color: #EBF2F2;
+	font-weight: normal;
+	font-family: 'Merienda', cursive;
+}
+
+#about {
+	text-align: center;
+}
+
+#zenware-brands {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.brand-summary {
+	width: 95%;
+}
+
+.about-brand-logo {
+	width: 60%;
+	padding: 4em 0 4em 0;
+}
+
+span {
+	color: #E3B455;
+}
+
+.brand-subpage div {
+    text-align: center;
+}
+
+.brand-information h2 {
+	margin-bottom: 0.5em;
+}
+
+.brand-subpage img {
+	height: 40vh;
+	padding: 0 0 1.5em 0;
+}
+
+#youtube-links {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+#youtube-links div {
+	margin: 0 1em;
+}
+
+#youtube-links div p {
+	color: #E3B455;
+}
+
+#youtube-logo {
+	height: 4vh;
+	margin-top: 0.5em;
+	padding: 0;
+}
+
+#contact {
+	text-align: center;
+}
+
+#founder-logo {
+	border-radius: 50%;
+	height: 40vh;
+	margin-bottom: 1em;
+}
+
+#get-in-touch {
+	margin-top: 1.5em;
+}
+
+#get-in-touch p {
+	font-family: 'Courgette', cursive;
+	font-size: 1.5em;
+}
+
+#get-in-touch a {
+	display: inline-block;
+}
+
+#linkedin-logo {
+	height: 6vh;
+	margin-top: 1em;
+	filter: brightness(0) invert(1);
+}
+
+
+
+@media screen and (min-width: 576px) {  
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media screen and (min-width: 768px) {  
+	.brand-summary {
+		width: 30%;
+		padding: 1.666%;
+	}
+
+	.brand-subpage {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.brand-subpage div {
+	    padding: 2.5%;
+	}
+
+	.brand-information {
+		text-align: left !important;
+	    width: 45%;
+	}
+
+	.centered-subtext {
+		max-width: 60vw;
+		margin: auto;
+	}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {  
+    
+}
