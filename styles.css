@@ -149,6 +149,16 @@ span {
 	padding: 0 0 1.5em 0;
 }
 
+#academy-link {
+	display: inline-block;
+	color: #5565e3;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 1rem 0;
+}
+
 #youtube-links {
 	display: flex;
 	justify-content: center;
