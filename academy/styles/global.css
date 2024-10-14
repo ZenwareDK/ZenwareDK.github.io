@@ -32,3 +32,23 @@ h5 {
 h6 {
     font-size: 1rem !important;
 }
+
+strong {
+    color: #E3B455 !important;
+}
+
+figure {
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 0.5rem;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.85rem;
+}
+
+code {
+    font-size: 0.8rem !important;
+}
