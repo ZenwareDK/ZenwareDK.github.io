@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Hero';
+    src: url('/academy/hero.otf'),;
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     font-family: 'Poppins';
+}
+
+.font-hero {
+    font-family: 'Hero' !important;
 }
 
 .font-graduate {
